@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    background-color: #29435C;
+    text-align: center;
+}
+
+ul{
+    margin: 0;
+}
+
+.heading-bar{
+    background-color: #556E53;
+    height: 80px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.header-container{
+    width: 80%;
+    margin-left: 10%;
+    position: relative;
+}
+
+.button{
+    vertical-align: middle;
+    cursor: pointer;
+    position: relative;
+    margin-top: 10px;    
+}
+
+.heading-button{
+    display: inline-block;
+    position: absolute;
+    background-color: #D1D4C9;
+}
+
+.home-button{
+    right: 10%;
+}
+
+.about-button{
+    right: 20%;
+
+}
+
+.contact-button{
+    right: 30%;
+}  
