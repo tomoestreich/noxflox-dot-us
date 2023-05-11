@@ -1,3 +1,10 @@
+:root{
+    --color_1: #152A38;
+    --color_2: #29435C;
+    --color_3: #556E53;
+    --color_4: #8E9E8E;
+}
+
 html{
     width: 100%;
     height: 100%;
@@ -6,20 +13,73 @@ html{
     overflow-x: hidden; 
 }
 
-#title{
-    background-color: #556E53;
-
-}
-
-#features{
-    background-color: #D1D4C9;
-
-}
-
 h1{
     font-family: 'Monserrat', sans-serif;
 
 }
+
+/*//////////////////////////////////// */
+/* Title Section                       */
+/*//////////////////////////////////// */
+
+#title{
+    background-color: var(--color_1);
+
+}
+
+.gradient-bg{
+    background: linear-gradient(300deg, var(--color_1), var(--color_2), var(--color_3));
+    background-size: 180% 180%;
+    animation: gradient 5s ease infinite;
+}
+
+.title-text{
+    color: var(--color_4);
+    text-align: center;
+}
+
+.title-div{
+    align-content: center;
+}
+
+.sign-up-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 35px;
+}
+
+@keyframes gradient-animation{
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+/*//////////////////////////////////// */
+/* Features section                    */
+/*//////////////////////////////////// */
+
+#features{
+    background-color: var(--color_2);
+
+}
+
+/*//////////////////////////////////// */
+/* Headlines section                   */
+/*//////////////////////////////////// */
+
+/*//////////////////////////////////// */
+/* Pricing section                     */
+/*//////////////////////////////////// */
+
+/*//////////////////////////////////// */
+/* Contact section                     */
+/*//////////////////////////////////// */
 
 .lcl-bg-primary {
     background-color: #152A38;
